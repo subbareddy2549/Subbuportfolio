@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>SUBBU portfolio site</title>
+    
+    <link rel="stylesheet" href="bootstrap.css" class="rel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        title{
+            color: black;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+ width: max-content;
+ padding: 0.7rem,1.7rem;
+ display: block;
+ z-index: 2;
+ position: fixed;
+ left: 50%;
+ transform: translateX(-50%);
+ bottom: 2rem;
+ display: flex;
+ gap: 1rem;
+ 
+ 
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border-radius: 3rem;
+            backdrop-filter: blur  15px;
+           
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a:hover{
+           text-decoration: none;
+           color: olive;
+           font-size: 1.5rem;
+        }
+        
+       
+       
+        main hr{
+            border: 0;
+            background: white;
+            height: 1.2px;
+            margin: 40px 80px;
+        }
+        .left {
+            color: blue;
+            font-size: 40px;
+        }
+        
+        .firstsection {
+            display: flex;
+            justify-content: center;
+            margin: 123px 0;
+            align-items: center;
+        }
+        
+        .firstsection div {
+            width: 100%;
+        }
+        
+        .leftsection {
+           margin: 80px;
+           font-size: 35px;
+        }
+        .leftsection .buttons{
+            padding:54px 0;
+        }
+        .leftsection .btn1{
+            justify-content: center;
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 20%;
+            font-size: 20px;
+            cursor: pointer;
+           
+        }
+        .btn1:hover{
+            background: transparent;
+        }
+        
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: blueviolet;
+        }
+        .secondsection{
+            max-width:400px;
+            /* margin: auto; */
+            margin-left: 90px;
+            align-items: left;
+        }
+        .secondsection .box{
+            background: white;
+            width: 86vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 105px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 175px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 100px;
+            width: 100px;
+            font-size: 5px;
+            color: blue;
+        }
+        footer{
+            width: 100%;
+            position: relative;
+            top: 400px;
+        }
+   
+    </style>
+</head>
+
+<body>
+    <header>
+      <div class="left">SUBBU portfolio</div>
+      <nav>
+        
+        <div class="right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Sevices</a></li>
+                
+                <li><a href="#Contact ">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">Hi,My Name is 
+            <span class="purple">SUBBU</span>
+            <div>and I am Passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn1" onclick="document.location='Subbu Resume.docx'">Download-Resume</button>
+                <a href="https://github.com/subbareddy2549/subbareddy2549.github.io" class="btn1">Github</a>
+            </div>
+
+        </div>
+            <div class="rightsection">
+                <img src="Subbu.jpg" alt="thalapathy">
+            </div>
+
+        </section>
+<hr>        
+        <section class="secondsection" id="services">
+            <span class="text-gray">what i have done so far</span>
+            <h1>Work experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="mich.png">
+                    <div class="vertical-title">
+                        Html developer (2008-2010)
+                    </div>
+                    
+                </div>
+                <div class="vertical" >
+                    <img class="image-top" src="insta.png">
+                    <div class="vertical-title">
+                        Html developer instagram(2012-2014)
+                    </div>
+                   
+                </div>
+                 <div class="vertical">
+                    <img class="image-top" src="twitter.png">
+                    <div class="vertical-title">
+                        Html developer Twitter (2014-2016)
+                    </div>
+                   
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png">
+                    <div class="vertical-title">
+                        Html developer Facebook (2016-2018)
+                    </div>
+                   
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="snap.png">
+                    <div class="vertical-title">
+                        Html developer Snapchat(2018-2020)
+                    </div>
+                   
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="utube.png">
+                    <div class="vertical-title">
+                        Html developer Youtube(2020-2022)
+                    </div>
+                    
+                </div>
+                <div class="vertical">
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+
+    </main>
+
+<footer class="text-center text-lg-start bg-black text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with me on social networks:</span>
+      </div>
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>About me
+            </h6>
+            <p>
+              The Details of me such as name
+              addresss age etc etc
+              will be produced here 
+              by me
+            </p>
+          </div>
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+           
+            <h6 class="text-uppercase fw-bold mb-4">
+              Languages
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">html</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">css</a>
+            </p>
+          </div>
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+           
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"  id="Contact">
+            
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> JNTUACEP PULIVENDHULA</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              kadapa
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> 7569252739</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> 6305757139</p>
+          </div>
+         
+        </div>
+       
+      </div>
+    </section>
+    
+    <div class="mich-2" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2021 Copyright:
+      <a class="mich-1" href="https://michpage.com/">SUBBU spage.com</a>
+    </div>
+    
+  </footer>
+  
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Photographer','Student','Learner'],
+      typeSpeed: 100,
+      loop:true,
+    });
+  </script>
+   
+</body>
+
+</html>
